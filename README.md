@@ -1,4 +1,14 @@
-# Testing with Jest!
+# Testing with Jest
+
+## Table of Contents
+
+1. [Matchers](#matchers)
+   1. [Common Matchers](#common-matchers)
+   1. [Truthiness](#truthiness)
+   1. [Numbers](#numbers)
+   1. [Strings](#strings)
+   1. [Arrays and Iterables](#arrays-and-iterables)
+   1. [Exceptions and Errors](#exceptions-and-errors)
 
 ## Matchers
 
