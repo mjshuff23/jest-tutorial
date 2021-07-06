@@ -33,3 +33,7 @@
 ### Arrays and Iterables
 
 `toContain(<value>)` - Checks if an array or other iterable contains the item
+
+### Exceptions and Errors
+
+`toThrow([<value>])` - Tests if a function throws an error or exception. Optionally you can specify the type of error, or a substring inside of the error message.
