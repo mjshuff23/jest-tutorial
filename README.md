@@ -2,6 +2,8 @@
 
 ## Table of Contents
 
+1. [Expect](#expect)
+   1. [Expect Custom Matchers](#expect-custom-matchers)
 1. [Matchers](#matchers)
    1. [Common Matchers](#common-matchers)
    1. [Truthiness](#truthiness)
@@ -9,6 +11,14 @@
    1. [Strings](#strings)
    1. [Arrays and Iterables](#arrays-and-iterables)
    1. [Exceptions and Errors](#exceptions-and-errors)
+
+## Expect
+
+`expect(<value>)` - Used every time you want to test a value. Commonly used alongside a **matcher** function to assert something about a value
+
+### Expect Custom Matchers
+
+`expect.extend(<matchers>)` - Used to add your own matchers to Jest.
 
 ## Matchers
 
