@@ -6,11 +6,22 @@ function throwError() {
 }
 
 describe('basic testing functionality', () => {
-	test('Testing Object values', () => {
-		const data = {
+	let myArray;
+	let data;
+
+	beforeAll(() => {
+		data = {
 			one: 1,
 		};
 		data.two = 2;
+	});
+	beforeEach(() => {
+		myArray = [1, 3, 5, 7, 9];
+	});
+
+	// afterEach(() => console.log('Test completed'));
+
+	test('Testing Object values', () => {
 		// toEqual - Recursively checks every field of an object/array for equality
 		expect(data).toEqual({ one: 1, two: 2 });
 	});
@@ -40,7 +51,6 @@ describe('basic testing functionality', () => {
 	});
 
 	test('Testing iterables', () => {
-		const myArray = [1, 3, 5, 7, 9];
 		expect(myArray).toContain(3);
 	});
 
